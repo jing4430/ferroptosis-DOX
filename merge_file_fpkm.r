@@ -2,7 +2,7 @@
 library(data.table)
 
 # 定义文件路径列表
-file_paths <- c("GSE76314.txt","GSE106297.txt","GSE157282.txt","GSE172181.txt","GSE247345.txt")  # 替换为实际文件路径
+file_paths <- c("GSE76314.txt","GSE106297.txt","GSE157282.txt","GSE247345.txt")  # 替换为实际文件路径
 
 # 初始化一个空 data.table，用于存储合并后的数据
 combined_data <- NULL
